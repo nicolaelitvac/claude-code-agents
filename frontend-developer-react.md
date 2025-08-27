@@ -1,6 +1,6 @@
 ---
-name: frontend-developer
-description: Build React components, implement responsive layouts, and handle client-side state management. Optimizes frontend performance and ensures accessibility. Use PROACTIVELY when creating UI components or fixing frontend issues.
+name: frontend-developer-react
+description: Build React components, implement responsive layouts, and handle client-side state management. Optimizes frontend performance and ensures accessibility. Use PROACTIVELY when creating UI components or fixing frontend issues in projects that use React.
 model: sonnet
 ---
 
