@@ -1,523 +1,352 @@
-<div align="right">
-  <details>
-    <summary >🌐 Language</summary>
-    <div>
-      <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-CN">简体中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=as">অসমীয়া</
-      </div>
-    </div>
-  </details>
-</div>
+# Claude Code Plugins: Orchestration and Automation
 
-# Claude Code Subagents Collection
+> **⚡ Updated for Opus 4.5, Sonnet 4.5 & Haiku 4.5** — Three-tier model strategy for optimal performance
 
-A comprehensive collection of specialized AI subagents for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), designed to enhance development workflows with domain-specific expertise.
+[![Run in Smithery](https://smithery.ai/badge/skills/wshobson)](https://smithery.ai/skills?ns=wshobson&utm_source=github&utm_medium=badge)
+
+> **🎯 Agent Skills Enabled** — 129 specialized skills extend Claude's capabilities across plugins with progressive disclosure
+
+A comprehensive production-ready system combining **108 specialized AI agents**, **15 multi-agent workflow orchestrators**, **129 agent skills**, and **72 development tools** organized into **72 focused, single-purpose plugins** for [Claude Code](https://docs.claude.com/en/docs/claude-code/overview).
 
 ## Overview
 
-This repository contains 75 specialized subagents that extend Claude Code's capabilities. Each subagent is an expert in a specific domain, automatically invoked based on context or explicitly called when needed. All agents are configured with specific Claude models based on task complexity for optimal performance and cost-effectiveness.
+This unified repository provides everything needed for intelligent automation and multi-agent orchestration across modern software development:
 
-## Available Subagents
+- **72 Focused Plugins** - Granular, single-purpose plugins optimized for minimal token usage and composability
+- **108 Specialized Agents** - Domain experts with deep knowledge across architecture, languages, infrastructure, quality, data/AI, documentation, business operations, and SEO
+- **129 Agent Skills** - Modular knowledge packages with progressive disclosure for specialized expertise
+- **15 Workflow Orchestrators** - Multi-agent coordination systems for complex operations like full-stack development, security hardening, ML pipelines, and incident response
+- **72 Development Tools** - Optimized utilities including project scaffolding, security scanning, test automation, and infrastructure setup
 
-### Development & Architecture
-- **[backend-architect](backend-architect.md)** - Design RESTful APIs, microservice boundaries, and database schemas
-- **[frontend-developer](frontend-developer.md)** - Build React components, implement responsive layouts, and handle client-side state management
-- **[ui-ux-designer](ui-ux-designer.md)** - Create interface designs, wireframes, and design systems
-- **[mobile-developer](mobile-developer.md)** - Develop React Native or Flutter apps with native integrations
-- **[graphql-architect](graphql-architect.md)** - Design GraphQL schemas, resolvers, and federation
-- **[architect-reviewer](architect-review.md)** - Reviews code changes for architectural consistency and patterns
+### Key Features
 
-### Language Specialists
-- **[python-pro](python-pro.md)** - Write idiomatic Python code with advanced features and optimizations
-- **[ruby-pro](ruby-pro.md)** - Write idiomatic Ruby code with metaprogramming, Rails patterns, gem development, and testing frameworks
-- **[golang-pro](golang-pro.md)** - Write idiomatic Go code with goroutines, channels, and interfaces
-- **[rust-pro](rust-pro.md)** - Write idiomatic Rust with ownership patterns, lifetimes, and trait implementations
-- **[c-pro](c-pro.md)** - Write efficient C code with proper memory management and system calls
-- **[cpp-pro](cpp-pro.md)** - Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms
-- **[javascript-pro](javascript-pro.md)** - Master modern JavaScript with ES6+, async patterns, and Node.js APIs
-- **[typescript-pro](typescript-pro.md)** - Master TypeScript with advanced types, generics, and strict type safety
-- **[php-pro](php-pro.md)** - Write idiomatic PHP code with modern features and performance optimizations
-- **[java-pro](java-pro.md)** - Master modern Java with streams, concurrency, and JVM optimization
-- **[elixir-pro](elixir-pro.md)** - Write idiomatic Elixir code with OTP patterns, functional programming, and Phoenix frameworks
-- **[csharp-pro](csharp-pro.md)** - Write modern C# code with advanced features and .NET optimization
-- **[scala-pro](scala-pro.md)** - Master enterprise-grade Scala development with functional programming, distributed systems, and big data processing
-- **[flutter-expert](flutter-expert.md)** - Master Flutter development with Dart, widgets, and platform integrations
-- **[unity-developer](unity-developer.md)** - Build Unity games with optimized scripts and performance tuning
-- **[minecraft-bukkit-pro](minecraft-bukkit-pro.md)** - Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs
-- **[ios-developer](ios-developer.md)** - Develop native iOS applications with Swift/SwiftUI
-- **[sql-pro](sql-pro.md)** - Write complex SQL queries, optimize execution plans, and design normalized schemas
+- **Granular Plugin Architecture**: 72 focused plugins optimized for minimal token usage
+- **Comprehensive Tooling**: 72 development tools including test generation, scaffolding, and security scanning
+- **100% Agent Coverage**: All plugins include specialized agents
+- **Agent Skills**: 129 specialized skills following for progressive disclosure and token efficiency
+- **Clear Organization**: 23 categories with 1-6 plugins each for easy discovery
+- **Efficient Design**: Average 3.4 components per plugin (follows Anthropic's 2-8 pattern)
 
-### Infrastructure & Operations
-- **[devops-troubleshooter](devops-troubleshooter.md)** - Debug production issues, analyze logs, and fix deployment failures
-- **[deployment-engineer](deployment-engineer.md)** - Configure CI/CD pipelines, Docker containers, and cloud deployments
-- **[cloud-architect](cloud-architect.md)** - Design AWS/Azure/GCP infrastructure and optimize cloud costs
-- **[hybrid-cloud-architect](hybrid-cloud-architect.md)** - Design hybrid cloud infrastructure across AWS/Azure/GCP and OpenStack on-premises environments
-- **[kubernetes-architect](kubernetes-architect.md)** - Design cloud-native infrastructure with Kubernetes at its core and GitOps principles across AWS/Azure/GCP and hybrid environments.
-- **[database-optimizer](database-optimizer.md)** - Optimize SQL queries, design efficient indexes, and handle database migrations
-- **[database-admin](database-admin.md)** - Manage database operations, backups, replication, and monitoring
-- **[terraform-specialist](terraform-specialist.md)** - Write advanced Terraform modules, manage state files, and implement IaC best practices
-- **[incident-responder](incident-responder.md)** - Handles production incidents with urgency and precision
-- **[network-engineer](network-engineer.md)** - Debug network connectivity, configure load balancers, and analyze traffic patterns
-- **[dx-optimizer](dx-optimizer.md)** - Developer Experience specialist that improves tooling, setup, and workflows
+### How It Works
 
-### Quality & Security
-- **[code-reviewer](code-reviewer.md)** - Expert code review with deep configuration security focus and production reliability
-- **[security-auditor](security-auditor.md)** - Review code for vulnerabilities and ensure OWASP compliance
-- **[test-automator](test-automator.md)** - Create comprehensive test suites with unit, integration, and e2e tests
-- **[performance-engineer](performance-engineer.md)** - Profile applications, optimize bottlenecks, and implement caching strategies
-- **[debugger](debugger.md)** - Debugging specialist for errors, test failures, and unexpected behavior
-- **[error-detective](error-detective.md)** - Search logs and codebases for error patterns, stack traces, and anomalies
-- **[search-specialist](search-specialist.md)** - Expert web researcher using advanced search techniques and synthesis
+Each plugin is completely isolated with its own agents, commands, and skills:
 
-### Data & AI
-- **[data-scientist](data-scientist.md)** - Data analysis expert for SQL queries, BigQuery operations, and data insights
-- **[data-engineer](data-engineer.md)** - Build ETL pipelines, data warehouses, and streaming architectures
-- **[ai-engineer](ai-engineer.md)** - Build LLM applications, RAG systems, and prompt pipelines
-- **[ml-engineer](ml-engineer.md)** - Implement ML pipelines, model serving, and feature engineering
-- **[mlops-engineer](mlops-engineer.md)** - Build ML pipelines, experiment tracking, and model registries
-- **[prompt-engineer](prompt-engineer.md)** - Optimizes prompts for LLMs and AI systems
+- **Install only what you need** - Each plugin loads only its specific agents, commands, and skills
+- **Minimal token usage** - No unnecessary resources loaded into context
+- **Mix and match** - Compose multiple plugins for complex workflows
+- **Clear boundaries** - Each plugin has a single, focused purpose
+- **Progressive disclosure** - Skills load knowledge only when activated
 
-### Specialized Domains
-- **[api-documenter](api-documenter.md)** - Create OpenAPI/Swagger specs and write developer documentation
-- **[payment-integration](payment-integration.md)** - Integrate Stripe, PayPal, and payment processors
-- **[quant-analyst](quant-analyst.md)** - Build financial models, backtest trading strategies, and analyze market data
-- **[risk-manager](risk-manager.md)** - Monitor portfolio risk, R-multiples, and position limits
-- **[legacy-modernizer](legacy-modernizer.md)** - Refactor legacy codebases and implement gradual modernization
-- **[context-manager](context-manager.md)** - Manages context across multiple agents and long-running tasks
+**Example**: Installing `python-development` loads 3 Python agents, 1 scaffolding tool, and makes 16 skills available (~1000 tokens), not the entire marketplace.
 
-### Documentation
-- **[docs-architect](docs-architect.md)** - Creates comprehensive technical documentation from existing codebases
-- **[mermaid-expert](mermaid-expert.md)** - Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures
-- **[reference-builder](reference-builder.md)** - Creates exhaustive technical references and API documentation
-- **[tutorial-engineer](tutorial-engineer.md)** - Creates step-by-step tutorials and educational content from code
+## Quick Start
 
-### Business & Marketing
-- **[business-analyst](business-analyst.md)** - Analyze metrics, create reports, and track KPIs
-- **[content-marketer](content-marketer.md)** - Write blog posts, social media content, and email newsletters
-- **[hp-pro](hp-pro.md)** - Partner for hiring, onboarding/offboarding, PTO and leave, performance, compliant policies, and employee relations.
-- **[sales-automator](sales-automator.md)** - Draft cold emails, follow-ups, and proposal templates
-- **[customer-support](customer-support.md)** - Handle support tickets, FAQ responses, and customer emails
-- **[legal-advisor](legal-advisor.md)** - Draft privacy policies, terms of service, disclaimers, and legal notices
+### Step 1: Add the Marketplace
 
-### SEO & Content Optimization
-- **[seo-content-auditor](seo-content-auditor.md)** - Analyzes provided content for quality, E-E-A-T signals, and SEO best practices
-- **[seo-meta-optimizer](seo-meta-optimizer.md)** - Creates optimized meta titles, descriptions, and URL suggestions
-- **[seo-keyword-strategist](seo-keyword-strategist.md)** - Analyzes keyword usage, calculates density, suggests semantic variations
-- **[seo-structure-architect](seo-structure-architect.md)** - Optimizes content structure, header hierarchy, and schema markup
-- **[seo-snippet-hunter](seo-snippet-hunter.md)** - Formats content for featured snippets and SERP features
-- **[seo-content-refresher](seo-content-refresher.md)** - Identifies outdated elements and suggests content updates
-- **[seo-cannibalization-detector](seo-cannibalization-detector.md)** - Analyzes multiple pages for keyword overlap and conflicts
-- **[seo-authority-builder](seo-authority-builder.md)** - Analyzes content for E-E-A-T signals and trust indicators
-- **[seo-content-writer](seo-content-writer.md)** - Writes SEO-optimized content based on keywords and briefs
-- **[seo-content-planner](seo-content-planner.md)** - Creates content outlines, topic clusters, and calendars
-
-## Model Assignments
-
-All 75 subagents are configured with specific Claude models based on task complexity:
-
-### 🚀 Haiku (Fast & Cost-Effective) - 15 agents
-**Model:** `haiku`
-- `data-scientist` - SQL queries and data analysis
-- `api-documenter` - OpenAPI/Swagger documentation
-- `reference-builder` - Exhaustive technical references and API documentation
-- `business-analyst` - Metrics and KPI tracking
-- `content-marketer` - Blog posts and social media
-- `customer-support` - Support tickets and FAQs
-- `sales-automator` - Cold emails and proposals
-- `search-specialist` - Web research and information gathering
-- `legal-advisor` - Privacy policies and compliance documents
-- `seo-meta-optimizer` - Meta title and description optimization
-- `seo-keyword-strategist` - Keyword density and semantic analysis
-- `seo-structure-architect` - Content structure and schema markup
-- `seo-snippet-hunter` - Featured snippet formatting
-- `seo-content-refresher` - Content freshness updates
-- `seo-cannibalization-detector` - Keyword overlap detection
-- `seo-content-planner` - Content calendars and outlines
-
-### ⚡ Sonnet (Balanced Performance) - 44 agents
-**Model:** `sonnet`
-
-**Development & Languages:**
-- `python-pro` - Python development with advanced features
-- `ruby-pro` - Ruby development with metaprogramming, Rails patterns, and gem development
-- `javascript-pro` - Modern JavaScript and Node.js
-- `typescript-pro` - Advanced TypeScript with type systems
-- `golang-pro` - Go concurrency and idiomatic patterns
-- `rust-pro` - Rust memory safety and systems programming
-- `c-pro` - C programming and embedded systems
-- `cpp-pro` - Modern C++ with STL and templates
-- `php-pro` - Modern PHP with advanced features
-- `java-pro` - Modern Java with streams and concurrency
-- `elixir-pro` - Elixir with OTP patterns and Phoenix
-- `csharp-pro` - Modern C# with .NET frameworks and patterns
-- `scala-pro` - Enterprise Scala with Apache Pekko, Akka, Spark, and ZIO/Cats Effect
-- `flutter-expert` - Flutter development with state management and animations
-- `unity-developer` - Unity game development and optimization
-- `minecraft-bukkit-pro` - Minecraft plugin development with Bukkit/Spigot/Paper
-- `ios-developer` - Native iOS development with Swift/SwiftUI
-- `frontend-developer` - React components and UI
-- `ui-ux-designer` - Interface design and wireframes
-- `backend-architect` - API design and microservices
-- `mobile-developer` - React Native/Flutter apps
-- `sql-pro` - Complex SQL optimization
-- `graphql-architect` - GraphQL schemas and resolvers
-
-**Infrastructure & Operations:**
-- `devops-troubleshooter` - Production debugging
-- `deployment-engineer` - CI/CD pipelines
-- `database-optimizer` - Query optimization
-- `database-admin` - Database operations
-- `terraform-specialist` - Infrastructure as Code
-- `network-engineer` - Network configuration
-- `dx-optimizer` - Developer experience
-- `data-engineer` - ETL pipelines
-
-**Quality & Support:**
-- `test-automator` - Test suite creation
-- `code-reviewer` - Code quality analysis
-- `debugger` - Error investigation
-- `error-detective` - Log analysis
-- `ml-engineer` - ML model deployment
-- `legacy-modernizer` - Framework migrations
-- `payment-integration` - Payment processing
-- `mermaid-expert` - Mermaid diagrams and visual documentation
-- `flutter-expert` - Flutter development
-- `seo-content-auditor` - Content quality and E-E-A-T analysis
-- `seo-authority-builder` - Authority signal optimization
-- `seo-content-writer` - SEO-optimized content creation
-
-### 🧠 Opus (Maximum Capability) - 15 agents
-**Model:** `opus`
-- `ai-engineer` - LLM applications and RAG systems
-- `security-auditor` - Vulnerability analysis
-- `performance-engineer` - Application optimization
-- `incident-responder` - Production incident handling
-- `mlops-engineer` - ML infrastructure
-- `architect-reviewer` - Architectural consistency
-- `cloud-architect` - Cloud infrastructure design
-- `prompt-engineer` - LLM prompt optimization
-- `context-manager` - Multi-agent coordination
-- `quant-analyst` - Financial modeling
-- `risk-manager` - Portfolio risk management
-- `docs-architect` - Comprehensive technical documentation from codebases
-- `tutorial-engineer` - Step-by-step tutorials and educational content
-
-## Installation
-
-These subagents are automatically available when placed in `~/.claude/agents/` directory.
+Add this marketplace to Claude Code:
 
 ```bash
-cd ~/.claude
-git clone https://github.com/wshobson/agents.git
+/plugin marketplace add wshobson/agents
 ```
 
-## Usage
+This makes all 72 plugins available for installation, but **does not load any agents or tools** into your context.
 
-### Automatic Invocation
-Claude Code will automatically delegate to the appropriate subagent based on the task context and the subagent's description.
+### Step 2: Install Plugins
 
-### Explicit Invocation
-Mention the subagent by name in your request:
-```
-"Use the code-reviewer to check my recent changes"
-"Have the security-auditor scan for vulnerabilities"
-"Get the performance-engineer to optimize this bottleneck"
-```
-
-## Usage Examples
-
-### Single Agent Tasks
-```bash
-# Code quality and review
-"Use code-reviewer to analyze this component for best practices"
-"Have code-reviewer scrutinize these configuration changes"
-"Have security-auditor check for OWASP compliance issues"
-
-# Development tasks  
-"Get backend-architect to design a user authentication API"
-"Use frontend-developer to create a responsive dashboard layout"
-
-# Infrastructure and operations
-"Have devops-troubleshooter analyze these production logs"
-"Use cloud-architect to design a scalable AWS architecture"
-"Get network-engineer to debug SSL certificate issues"
-"Use database-admin to set up backup and replication"
-
-# Data and AI
-"Get data-scientist to analyze this customer behavior dataset"
-"Use ai-engineer to build a RAG system for document search"
-"Have mlops-engineer set up MLflow experiment tracking"
-
-# Business and marketing
-"Have business-analyst create investor deck with growth metrics"
-"Use content-marketer to write SEO-optimized blog post"
-"Get sales-automator to create cold email sequence"
-"Have customer-support draft FAQ documentation"
-```
-
-### Multi-Agent Workflows
-
-These subagents work together seamlessly, and for more complex orchestrations, you can use the **[Claude Code Commands](https://github.com/wshobson/commands)** collection which provides 52 pre-built slash commands that leverage these subagents in sophisticated workflows.
+Browse available plugins:
 
 ```bash
-# Feature development workflow
-"Implement user authentication feature"
-# Automatically uses: backend-architect → frontend-developer → test-automator → security-auditor
-
-# Performance optimization workflow  
-"Optimize the checkout process performance"
-# Automatically uses: performance-engineer → database-optimizer → frontend-developer
-
-# Production incident workflow
-"Debug high memory usage in production"
-# Automatically uses: incident-responder → devops-troubleshooter → error-detective → performance-engineer
-
-# Network connectivity workflow
-"Fix intermittent API timeouts"
-# Automatically uses: network-engineer → devops-troubleshooter → performance-engineer
-
-# Database maintenance workflow
-"Set up disaster recovery for production database"
-# Automatically uses: database-admin → database-optimizer → incident-responder
-
-# ML pipeline workflow
-"Build end-to-end ML pipeline with monitoring"
-# Automatically uses: mlops-engineer → ml-engineer → data-engineer → performance-engineer
-
-# Product launch workflow
-"Launch new feature with marketing campaign"
-# Automatically uses: business-analyst → content-marketer → sales-automator → customer-support
+/plugin
 ```
 
-### Advanced Workflows with Slash Commands
-
-For more sophisticated multi-subagent orchestration, use the companion [Commands repository](https://github.com/wshobson/commands):
+Install the plugins you need:
 
 ```bash
-# Complex feature development (8+ subagents)
-/full-stack-feature Build user dashboard with real-time analytics
+# Essential development plugins
+/plugin install python-development          # Python with 16 specialized skills
+/plugin install javascript-typescript       # JS/TS with 4 specialized skills
+/plugin install backend-development         # Backend APIs with 3 architecture skills
 
-# Production incident response (5+ subagents) 
-/incident-response Database connection pool exhausted
+# Infrastructure & operations
+/plugin install kubernetes-operations       # K8s with 4 deployment skills
+/plugin install cloud-infrastructure        # AWS/Azure/GCP with 4 cloud skills
 
-# ML infrastructure setup (6+ subagents)
-/ml-pipeline Create recommendation engine with A/B testing
+# Security & quality
+/plugin install security-scanning           # SAST with security skill
+/plugin install code-review-ai             # AI-powered code review
 
-# Security-focused implementation (7+ subagents)
-/security-hardening Implement OAuth2 with zero-trust architecture
+# Full-stack orchestration
+/plugin install full-stack-orchestration   # Multi-agent workflows
 ```
 
-## Subagent Format
+Each installed plugin loads **only its specific agents, commands, and skills** into Claude's context.
 
-Each subagent follows this structure:
-```markdown
----
-name: subagent-name
-description: When this subagent should be invoked
-model: haiku  # Optional - specify which model to use (haiku/sonnet/opus)
-tools: tool1, tool2  # Optional - defaults to all tools
----
+### Plugins vs Agents
 
-System prompt defining the subagent's role and capabilities
+You install **plugins**, which bundle agents:
+
+| Plugin                  | Agents                                            |
+| ----------------------- | ------------------------------------------------- |
+| `comprehensive-review`  | architect-review, code-reviewer, security-auditor |
+| `javascript-typescript` | javascript-pro, typescript-pro                    |
+| `python-development`    | python-pro, django-pro, fastapi-pro               |
+| `blockchain-web3`       | blockchain-developer                              |
+
+```bash
+# ❌ Wrong - can't install agents directly
+/plugin install typescript-pro
+
+# ✅ Right - install the plugin
+/plugin install javascript-typescript@claude-code-workflows
 ```
 
-### Model Configuration
+### Troubleshooting
 
-As of Claude Code v1.0.64, subagents can specify which Claude model they should use. This allows for cost-effective task delegation based on complexity:
+**"Plugin not found"** → Use plugin names, not agent names. Add `@claude-code-workflows` suffix.
 
-- **Low Complexity (Haiku)**: Simple tasks like basic data analysis, documentation generation, and standard responses
-- **Medium Complexity (Sonnet)**: Development tasks, code review, testing, and standard engineering work  
-- **High Complexity (Opus)**: Critical tasks like security auditing, architecture review, incident response, and AI/ML engineering
+**Plugins not loading** → Clear cache and reinstall:
 
-Available models (using simplified naming as of Claude Code v1.0.64):
-- `haiku` - Fast and cost-effective for simple tasks
-- `sonnet` - Balanced performance for most development work
-- `opus` - Most capable for complex analysis and critical tasks
-
-If no model is specified, the subagent will use the system's default model.
-
-## Agent Orchestration Patterns
-
-Claude Code automatically coordinates agents using these common patterns:
-
-### Sequential Workflows
-```
-User Request → Agent A → Agent B → Agent C → Result
-
-Example: "Build a new API feature"
-backend-architect → frontend-developer → test-automator → security-auditor
+```bash
+rm -rf ~/.claude/plugins/cache/claude-code-workflows && rm ~/.claude/plugins/installed_plugins.json
 ```
 
-### Parallel Execution
+## Documentation
+
+### Core Guides
+
+- **[Plugin Reference](docs/plugins.md)** - Complete catalog of all 72 plugins
+- **[Agent Reference](docs/agents.md)** - All 108 agents organized by category
+- **[Agent Skills](docs/agent-skills.md)** - 129 specialized skills with progressive disclosure
+- **[Usage Guide](docs/usage.md)** - Commands, workflows, and best practices
+- **[Architecture](docs/architecture.md)** - Design principles and patterns
+
+### Quick Links
+
+- [Installation](#quick-start) - Get started in 2 steps
+- [Essential Plugins](docs/plugins.md#quick-start---essential-plugins) - Top plugins for immediate productivity
+- [Command Reference](docs/usage.md#command-reference-by-category) - All slash commands organized by category
+- [Multi-Agent Workflows](docs/usage.md#multi-agent-workflow-examples) - Pre-configured orchestration examples
+- [Model Configuration](docs/agents.md#model-configuration) - Haiku/Sonnet hybrid orchestration
+
+## What's New
+
+### Agent Skills (140 skills across 20 plugins)
+
+Specialized knowledge packages following Anthropic's progressive disclosure architecture:
+
+**Language Development:**
+
+- **Python** (5 skills): async patterns, testing, packaging, performance, UV package manager
+- **JavaScript/TypeScript** (4 skills): advanced types, Node.js patterns, testing, modern ES6+
+
+**Infrastructure & DevOps:**
+
+- **Kubernetes** (4 skills): manifests, Helm charts, GitOps, security policies
+- **Cloud Infrastructure** (4 skills): Terraform, multi-cloud, hybrid networking, cost optimization
+- **CI/CD** (4 skills): pipeline design, GitHub Actions, GitLab CI, secrets management
+
+**Development & Architecture:**
+
+- **Backend** (3 skills): API design, architecture patterns, microservices
+- **LLM Applications** (8 skills): LangGraph, prompt engineering, RAG, evaluation, embeddings, similarity search, vector tuning, hybrid search
+
+**Blockchain & Web3** (4 skills): DeFi protocols, NFT standards, Solidity security, Web3 testing
+
+**Project Management:**
+
+- **Conductor** (3 skills): context-driven development, track management, workflow patterns
+
+**And more:** Framework migration, observability, payment processing, ML operations, security scanning
+
+[→ View complete skills documentation](docs/agent-skills.md)
+
+### Three-Tier Model Strategy
+
+Strategic model assignment for optimal performance and cost:
+
+| Tier       | Model    | Agents | Use Case                                                                                        |
+| ---------- | -------- | ------ | ----------------------------------------------------------------------------------------------- |
+| **Tier 1** | Opus 4.5 | 42     | Critical architecture, security, ALL code review, production coding (language pros, frameworks) |
+| **Tier 2** | Inherit  | 42     | Complex tasks - user chooses model (AI/ML, backend, frontend/mobile, specialized)               |
+| **Tier 3** | Sonnet   | 51     | Support with intelligence (docs, testing, debugging, network, API docs, DX, legacy, payments)   |
+| **Tier 4** | Haiku    | 18     | Fast operational tasks (SEO, deployment, simple docs, sales, content, search)                   |
+
+**Why Opus 4.5 for Critical Agents?**
+
+- 80.9% on SWE-bench (industry-leading)
+- 65% fewer tokens for complex tasks
+- Best for architecture decisions and security audits
+
+**Tier 2 Flexibility (`inherit`):**
+Agents marked `inherit` use your session's default model, letting you balance cost and capability:
+
+- Set via `claude --model opus` or `claude --model sonnet` when starting a session
+- Falls back to Sonnet 4.5 if no default specified
+- Perfect for frontend/mobile developers who want cost control
+- AI/ML engineers can choose Opus for complex model work
+
+**Cost Considerations:**
+
+- **Opus 4.5**: $5/$25 per million input/output tokens - Premium for critical work
+- **Sonnet 4.5**: $3/$15 per million tokens - Balanced performance/cost
+- **Haiku 4.5**: $1/$5 per million tokens - Fast, cost-effective operations
+- Opus's 65% token reduction on complex tasks often offsets higher rate
+- Use `inherit` tier to control costs for high-volume use cases
+
+Orchestration patterns combine models for efficiency:
+
 ```
-User Request → Agent A + Agent B (simultaneously) → Merge Results
-
-Example: "Optimize application performance" 
-performance-engineer + database-optimizer → Combined recommendations
+Opus (architecture) → Sonnet (development) → Haiku (deployment)
 ```
 
-### Conditional Branching
-```
-User Request → Analysis → Route to appropriate specialist
+[→ View model configuration details](docs/agents.md#model-configuration)
 
-Example: "Fix this bug"
-debugger (analyzes) → Routes to: backend-architect OR frontend-developer OR devops-troubleshooter
-```
+## Popular Use Cases
 
-### Review & Validation
-```
-Primary Agent → Review Agent → Final Result
+### Full-Stack Feature Development
 
-Example: "Implement payment processing"
-payment-integration → security-auditor → Validated implementation
+```bash
+/full-stack-orchestration:full-stack-feature "user authentication with OAuth2"
 ```
 
-## When to Use Which Agent
+Coordinates 7+ agents: backend-architect → database-architect → frontend-developer → test-automator → security-auditor → deployment-engineer → observability-engineer
 
-### 🏗️ Planning & Architecture
-- **backend-architect**: API design, database schemas, system architecture
-- **frontend-developer**: UI/UX planning, component architecture
-- **ui-ux-designer**: Interface design, wireframes, design systems, user research
-- **cloud-architect**: Infrastructure design, scalability planning
+[→ View all workflow examples](docs/usage.md#multi-agent-workflow-examples)
 
-### 🔧 Implementation & Development  
-- **python-pro**: Python-specific development tasks
-- **ruby-pro**: Ruby metaprogramming, Rails applications, gem development, RSpec/Minitest testing
-- **golang-pro**: Go-specific development tasks
-- **rust-pro**: Rust-specific development, memory safety, systems programming
-- **c-pro**: C programming, embedded systems, performance-critical code
-- **javascript-pro**: Modern JavaScript, async patterns, Node.js/browser code
-- **typescript-pro**: Advanced TypeScript, generics, type inference, enterprise patterns
-- **java-pro**: Modern Java development, streams, concurrency, Spring Boot
-- **elixir-pro**: Elixir development, OTP patterns, Phoenix frameworks, functional programming
-- **csharp-pro**: Modern C# development, .NET frameworks, enterprise patterns
-- **scala-pro**: Enterprise Scala with functional programming, Apache Pekko/Akka actors, Apache Spark, ZIO/Cats Effect, reactive architectures
-- **flutter-expert**: Flutter development, Dart, state management, animations, cross-platform deployment
-- **unity-developer**: Unity game development, C# scripting, performance optimization
-- **minecraft-bukkit-pro**: Minecraft plugin development, event systems, server-side features
-- **ios-developer**: Native iOS development with Swift/SwiftUI
-- **sql-pro**: Database queries, schema design, query optimization
-- **mobile-developer**: React Native/Flutter development
+### Security Hardening
 
-### 🛠️ Operations & Maintenance
-- **devops-troubleshooter**: Production issues, deployment problems
-- **incident-responder**: Critical outages requiring immediate response
-- **database-optimizer**: Query performance, indexing strategies
-- **database-admin**: Backup strategies, replication, user management, disaster recovery
-- **terraform-specialist**: Infrastructure as Code, Terraform modules, state management
-- **network-engineer**: Network connectivity, load balancers, SSL/TLS, DNS debugging
+```bash
+/security-scanning:security-hardening --level comprehensive
+```
 
-### 📊 Analysis & Optimization
-- **performance-engineer**: Application bottlenecks, optimization
-- **security-auditor**: Vulnerability scanning, compliance checks
-- **data-scientist**: Data analysis, insights, reporting
-- **mlops-engineer**: ML infrastructure, experiment tracking, model registries, pipeline automation
+Multi-agent security assessment with SAST, dependency scanning, and code review.
 
-### 🧪 Quality Assurance
-- **code-reviewer**: Code quality, configuration security, production reliability
-- **test-automator**: Test strategy, test suite creation
-- **debugger**: Bug investigation, error resolution
-- **error-detective**: Log analysis, error pattern recognition, root cause analysis
-- **search-specialist**: Deep web research, competitive analysis, fact-checking
+### Python Development with Modern Tools
 
-### 📚 Documentation
-- **api-documenter**: OpenAPI/Swagger specs, API documentation
-- **docs-architect**: Comprehensive technical documentation, architecture guides, system manuals
-- **reference-builder**: Exhaustive API references, configuration guides, parameter documentation
-- **tutorial-engineer**: Step-by-step tutorials, learning paths, educational content
+```bash
+/python-development:python-scaffold fastapi-microservice
+```
 
-### 💼 Business & Strategy
-- **business-analyst**: KPIs, revenue models, growth projections, investor metrics
-- **risk-manager**: Portfolio risk, hedging strategies, R-multiples, position sizing
-- **content-marketer**: SEO content, blog posts, social media, email campaigns
-- **sales-automator**: Cold emails, follow-ups, proposals, lead nurturing
-- **customer-support**: Support tickets, FAQs, help documentation, troubleshooting
-- **legal-advisor** - Draft privacy policies, terms of service, disclaimers, and legal notices
+Creates production-ready FastAPI project with async patterns, activating skills:
 
-## Best Practices
+- `async-python-patterns` - AsyncIO and concurrency
+- `python-testing-patterns` - pytest and fixtures
+- `uv-package-manager` - Fast dependency management
 
-### 🎯 Task Delegation
-1. **Let Claude Code delegate automatically** - The main agent analyzes context and selects optimal agents
-2. **Be specific about requirements** - Include constraints, tech stack, and quality requirements
-3. **Trust agent expertise** - Each agent is optimized for their domain
+### Kubernetes Deployment
 
-### 🔄 Multi-Agent Workflows
-4. **Start with high-level requests** - Let agents coordinate complex multi-step tasks
-5. **Provide context between agents** - Ensure agents have necessary background information
-6. **Review integration points** - Check how different agents' outputs work together
+```bash
+# Activates k8s skills automatically
+"Create production Kubernetes deployment with Helm chart and GitOps"
+```
 
-### 🎛️ Explicit Control
-7. **Use explicit invocation for specific needs** - When you want a particular expert's perspective
-8. **Combine multiple agents strategically** - Different specialists can validate each other's work
-9. **Request specific review patterns** - "Have security-auditor review backend-architect's API design"
+Uses kubernetes-architect agent with 4 specialized skills for production-grade configs.
 
-### 📈 Optimization
-10. **Monitor agent effectiveness** - Learn which agents work best for your use cases
-11. **Iterate on complex tasks** - Use agent feedback to refine requirements
-12. **Leverage agent strengths** - Match task complexity to agent capabilities
+[→ View complete usage guide](docs/usage.md)
+
+## Plugin Categories
+
+**23 categories, 72 plugins:**
+
+- 🎨 **Development** (4) - debugging, backend, frontend, multi-platform
+- 📚 **Documentation** (3) - code docs, API specs, diagrams, C4 architecture
+- 🔄 **Workflows** (4) - git, full-stack, TDD, **Conductor** (context-driven development)
+- ✅ **Testing** (2) - unit testing, TDD workflows
+- 🔍 **Quality** (3) - code review, comprehensive review, performance
+- 🤖 **AI & ML** (4) - LLM apps, agent orchestration, context, MLOps
+- 📊 **Data** (2) - data engineering, data validation
+- 🗄️ **Database** (2) - database design, migrations
+- 🚨 **Operations** (4) - incident response, diagnostics, distributed debugging, observability
+- ⚡ **Performance** (2) - application performance, database/cloud optimization
+- ☁️ **Infrastructure** (5) - deployment, validation, Kubernetes, cloud, CI/CD
+- 🔒 **Security** (4) - scanning, compliance, backend/API, frontend/mobile
+- 💻 **Languages** (7) - Python, JS/TS, systems, JVM, scripting, functional, embedded
+- 🔗 **Blockchain** (1) - smart contracts, DeFi, Web3
+- 💰 **Finance** (1) - quantitative trading, risk management
+- 💳 **Payments** (1) - Stripe, PayPal, billing
+- 🎮 **Gaming** (1) - Unity, Minecraft plugins
+- 📢 **Marketing** (4) - SEO content, technical SEO, SEO analysis, content marketing
+- 💼 **Business** (3) - analytics, HR/legal, customer/sales
+- And more...
+
+[→ View complete plugin catalog](docs/plugins.md)
+
+## Architecture Highlights
+
+### Granular Design
+
+- **Single responsibility** - Each plugin does one thing well
+- **Minimal token usage** - Average 3.4 components per plugin
+- **Composable** - Mix and match for complex workflows
+- **100% coverage** - All 108 agents accessible across plugins
+
+### Progressive Disclosure (Skills)
+
+Three-tier architecture for token efficiency:
+
+1. **Metadata** - Name and activation criteria (always loaded)
+2. **Instructions** - Core guidance (loaded when activated)
+3. **Resources** - Examples and templates (loaded on demand)
+
+### Repository Structure
+
+```
+claude-agents/
+├── .claude-plugin/
+│   └── marketplace.json          # 72 plugins
+├── plugins/
+│   ├── python-development/
+│   │   ├── agents/               # 3 Python experts
+│   │   ├── commands/             # Scaffolding tool
+│   │   └── skills/               # 5 specialized skills
+│   ├── kubernetes-operations/
+│   │   ├── agents/               # K8s architect
+│   │   ├── commands/             # Deployment tools
+│   │   └── skills/               # 4 K8s skills
+│   └── ... (65 more plugins)
+├── docs/                          # Comprehensive documentation
+└── README.md                      # This file
+```
+
+[→ View architecture details](docs/architecture.md)
 
 ## Contributing
 
-To add a new subagent:
-1. Create a new `.md` file following the format above
-2. Use lowercase, hyphen-separated names
-3. Write clear descriptions for when the subagent should be used
-4. Include specific instructions in the system prompt
+To add new agents, skills, or commands:
 
-## Troubleshooting
+1. Identify or create the appropriate plugin directory in `plugins/`
+2. Create `.md` files in the appropriate subdirectory:
+   - `agents/` - For specialized agents
+   - `commands/` - For tools and workflows
+   - `skills/` - For modular knowledge packages
+3. Follow naming conventions (lowercase, hyphen-separated)
+4. Write clear activation criteria and comprehensive content
+5. Update the plugin definition in `.claude-plugin/marketplace.json`
 
-### Common Issues
+See [Architecture Documentation](docs/architecture.md) for detailed guidelines.
 
-**Agent not being invoked automatically:**
-- Ensure your request clearly indicates the domain (e.g., "performance issue" → performance-engineer)
-- Be specific about the task type (e.g., "review code" → code-reviewer)
+## Resources
 
-**Unexpected agent selection:**
-- Provide more context about your tech stack and requirements
-- Use explicit invocation if you need a specific agent
+### Documentation
 
-**Multiple agents producing conflicting advice:**
-- This is normal - different specialists may have different priorities
-- Ask for clarification: "Reconcile the recommendations from security-auditor and performance-engineer"
+- [Claude Code Documentation](https://docs.claude.com/en/docs/claude-code/overview)
+- [Plugins Guide](https://docs.claude.com/en/docs/claude-code/plugins)
+- [Subagents Guide](https://docs.claude.com/en/docs/claude-code/sub-agents)
+- [Agent Skills Guide](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview)
+- [Slash Commands Reference](https://docs.claude.com/en/docs/claude-code/slash-commands)
 
-**Agent seems to lack context:**
-- Provide background information in your request
-- Reference previous conversations or established patterns
+### This Repository
 
-### Getting Help
-
-If agents aren't working as expected:
-1. Check agent descriptions in their individual files
-2. Try more specific language in your requests
-3. Use explicit invocation to test specific agents
-4. Provide more context about your project and goals
+- [Plugin Reference](docs/plugins.md)
+- [Agent Reference](docs/agents.md)
+- [Agent Skills Guide](docs/agent-skills.md)
+- [Usage Guide](docs/usage.md)
+- [Architecture](docs/architecture.md)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT License - see [LICENSE](LICENSE) file for details.
 
-## Learn More
+## Star History
 
-- [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)
-- [Subagents Documentation](https://docs.anthropic.com/en/docs/claude-code/sub-agents)
-- [Claude Code GitHub](https://github.com/anthropics/claude-code)
+[![Star History Chart](https://api.star-history.com/svg?repos=wshobson/agents&type=date&legend=top-left)](https://www.star-history.com/#wshobson/agents&type=date&legend=top-left)
