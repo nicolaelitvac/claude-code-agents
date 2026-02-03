@@ -300,6 +300,7 @@ Many slash commands support arguments for precise control:
 
 # Component scaffolding
 /frontend-mobile-development:component-scaffold UserProfile component with hooks
+/frontend-development-vuejs:component-scaffold UserProfile component with Composition API
 
 # TDD workflow cycle
 /tdd-workflows:tdd-red User can reset password

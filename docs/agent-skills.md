@@ -201,7 +201,16 @@ Skills provide Claude with deep expertise in specific domains without loading ev
 | **react-state-management**     | Implement state management with Zustand, Jotai, and React Query |
 | **nextjs-app-router-patterns** | Build Next.js 14+ apps with App Router, RSC, and streaming      |
 | **tailwind-design-system**     | Create design systems with Tailwind CSS and component libraries |
-| **react-native-architecture**  | Architect React Native apps with navigation and native modules  |
+| **react-native-architecture**   | Architect React Native apps with navigation and native modules  |
+
+### Frontend Development Vue.js (4 skills)
+
+| Skill                        | Description                                                          |
+| ---------------------------- | -------------------------------------------------------------------- |
+| **vue-state-management**    | Implement state management with Pinia, provide/inject, and Vue Query |
+| **nuxt-patterns**            | Build Nuxt 3 apps with useFetch, useAsyncData, server routes, SSR   |
+| **tailwind-design-system**   | Create design systems with Tailwind CSS and component libraries     |
+| **vue-capacitor-mobile**     | Build Vue/Nuxt apps as native iOS/Android with Capacitor             |
 
 ### UI Design (9 skills)
 

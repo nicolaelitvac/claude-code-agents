@@ -50,6 +50,14 @@ RESTful and GraphQL API design with test-driven development and modern backend a
 
 React/React Native component development with automated scaffolding and cross-platform implementation.
 
+**frontend-development-vuejs** - Vue.js and Nuxt frontend development
+
+```bash
+/plugin install frontend-development-vuejs
+```
+
+Vue 3/Nuxt component development with automated scaffolding and Vue + Capacitor for cross-platform mobile.
+
 **full-stack-orchestration** - End-to-end feature development
 
 ```bash
@@ -116,15 +124,16 @@ Next.js, React + Vite, and Node.js project setup with pnpm and TypeScript best p
 
 ## Complete Plugin Catalog
 
-### 🎨 Development (5 plugins)
+### 🎨 Development (6 plugins)
 
-| Plugin                          | Description                                                  | Install                                       |
-| ------------------------------- | ------------------------------------------------------------ | --------------------------------------------- |
-| **debugging-toolkit**           | Interactive debugging and DX optimization                    | `/plugin install debugging-toolkit`           |
-| **backend-development**         | Backend API design with GraphQL and TDD                      | `/plugin install backend-development`         |
-| **frontend-mobile-development** | Frontend UI and mobile development                           | `/plugin install frontend-mobile-development` |
-| **ui-design**                   | UI/UX design for mobile (iOS, Android, React Native) and web | `/plugin install ui-design`                   |
-| **multi-platform-apps**         | Cross-platform app coordination (web/iOS/Android)            | `/plugin install multi-platform-apps`         |
+| Plugin                            | Description                                                  | Install                                         |
+| --------------------------------- | ------------------------------------------------------------ | ----------------------------------------------- |
+| **debugging-toolkit**             | Interactive debugging and DX optimization                    | `/plugin install debugging-toolkit`             |
+| **backend-development**           | Backend API design with GraphQL and TDD                      | `/plugin install backend-development`           |
+| **frontend-mobile-development**   | Frontend UI and mobile development (React/React Native)      | `/plugin install frontend-mobile-development`   |
+| **frontend-development-vuejs**    | Vue.js/Nuxt frontend and Vue + Capacitor mobile              | `/plugin install frontend-development-vuejs`    |
+| **ui-design**                     | UI/UX design for mobile (iOS, Android, React Native) and web | `/plugin install ui-design`                     |
+| **multi-platform-apps**           | Cross-platform app coordination (web/iOS/Android)            | `/plugin install multi-platform-apps`           |
 
 ### 📚 Documentation (3 plugins)
 

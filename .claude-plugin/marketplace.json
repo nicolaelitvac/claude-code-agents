@@ -160,6 +160,33 @@
       ]
     },
     {
+      "name": "frontend-development-vuejs",
+      "source": "./plugins/frontend-development-vuejs",
+      "description": "Vue.js and Nuxt frontend development with Capacitor for mobile",
+      "version": "1.0.0",
+      "author": {
+        "name": "Seth Hobson",
+        "url": "https://github.com/wshobson"
+      },
+      "homepage": "https://github.com/wshobson/agents",
+      "repository": "https://github.com/wshobson/agents",
+      "license": "MIT",
+      "keywords": ["frontend", "vue", "vuejs", "nuxt", "capacitor", "ui", "cross-platform"],
+      "category": "development",
+      "strict": false,
+      "commands": ["./commands/component-scaffold.md"],
+      "agents": [
+        "./agents/frontend-developer.md",
+        "./agents/mobile-developer.md"
+      ],
+      "skills": [
+        "./skills/vue-state-management",
+        "./skills/nuxt-patterns",
+        "./skills/vue-capacitor-mobile",
+        "./skills/tailwind-design-system"
+      ]
+    },
+    {
       "name": "full-stack-orchestration",
       "source": "./plugins/full-stack-orchestration",
       "description": "End-to-end feature orchestration with testing, security, performance, and deployment",
