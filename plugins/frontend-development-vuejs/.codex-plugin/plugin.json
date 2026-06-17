@@ -1,0 +1,11 @@
+{
+  "name": "frontend-development-vuejs",
+  "version": "0.0.0",
+  "description": "",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Frontend Development Vuejs",
+    "shortDescription": "frontend-development-vuejs",
+    "category": "Coding"
+  }
+}

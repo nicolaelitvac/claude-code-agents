@@ -1,6 +1,6 @@
 # Complete Plugin Reference
 
-Browse all **72 focused, single-purpose plugins** organized by category.
+Browse all **84 marketplace plugins** organized by category: 82 local plugins plus 2 externally hosted `git-subdir` entries (`pensyve`, `qa-orchestra`).
 
 ## Quick Start - Essential Plugins
 
@@ -76,14 +76,6 @@ Multi-agent coordination from backend → frontend → testing → security → 
 
 Generate pytest (Python) and Jest (JavaScript) unit tests automatically with comprehensive edge case coverage.
 
-**code-review-ai** - AI-powered code review
-
-```bash
-/plugin install code-review-ai
-```
-
-Architectural analysis, security assessment, and code quality review with actionable feedback.
-
 ### Infrastructure & Operations
 
 **cloud-infrastructure** - Cloud architecture design
@@ -124,26 +116,28 @@ Next.js, React + Vite, and Node.js project setup with pnpm and TypeScript best p
 
 ## Complete Plugin Catalog
 
-### 🎨 Development (6 plugins)
+### 🎨 Development (7 plugins)
 
-| Plugin                            | Description                                                  | Install                                         |
-| --------------------------------- | ------------------------------------------------------------ | ----------------------------------------------- |
-| **debugging-toolkit**             | Interactive debugging and DX optimization                    | `/plugin install debugging-toolkit`             |
-| **backend-development**           | Backend API design with GraphQL and TDD                      | `/plugin install backend-development`           |
-| **frontend-mobile-development**   | Frontend UI and mobile development (React/React Native)      | `/plugin install frontend-mobile-development`   |
-| **frontend-development-vuejs**    | Vue.js/Nuxt frontend and Vue + Capacitor mobile              | `/plugin install frontend-development-vuejs`    |
-| **ui-design**                     | UI/UX design for mobile (iOS, Android, React Native) and web | `/plugin install ui-design`                     |
-| **multi-platform-apps**           | Cross-platform app coordination (web/iOS/Android)            | `/plugin install multi-platform-apps`           |
+| Plugin                          | Description                                                            | Install                                       |
+| ------------------------------- | --------------------------------------------------------------------- | --------------------------------------------- |
+| **debugging-toolkit**           | Interactive debugging and DX optimization                             | `/plugin install debugging-toolkit`           |
+| **backend-development**         | Backend API design with GraphQL and TDD                               | `/plugin install backend-development`         |
+| **frontend-mobile-development** | Frontend UI and mobile development (React/React Native)               | `/plugin install frontend-mobile-development` |
+| **frontend-development-vuejs**  | Vue.js/Nuxt frontend and Vue + Capacitor mobile                       | `/plugin install frontend-development-vuejs`  |
+| **ui-design**                   | UI/UX design for mobile (iOS, Android, React Native) and web          | `/plugin install ui-design`                   |
+| **multi-platform-apps**         | Cross-platform app coordination (web/iOS/Android)                     | `/plugin install multi-platform-apps`         |
+| **developer-essentials**        | Essential Git, SQL, code review, auth, debugging, and monorepo skills | `/plugin install developer-essentials`        |
 
-### 📚 Documentation (3 plugins)
+### 📚 Documentation (4 plugins)
 
 | Plugin                       | Description                                                                                                                                     | Install                                    |
 | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| **documentation-standards**  | HADS semantic tagging conventions for human- and AI-friendly documentation                                                                       | `/plugin install documentation-standards`  |
 | **code-documentation**       | Documentation generation and code explanation                                                                                                   | `/plugin install code-documentation`       |
 | **documentation-generation** | OpenAPI specs, Mermaid diagrams, tutorials                                                                                                      | `/plugin install documentation-generation` |
 | **c4-architecture**          | Comprehensive C4 architecture documentation workflow with bottom-up code analysis, component synthesis, container mapping, and context diagrams | `/plugin install c4-architecture`          |
 
-### 🔄 Workflows (4 plugins)
+### 🔄 Workflows (6 plugins)
 
 | Plugin                       | Description                                                                    | Install                                    |
 | ---------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------ |
@@ -151,21 +145,23 @@ Next.js, React + Vite, and Node.js project setup with pnpm and TypeScript best p
 | **git-pr-workflows**         | Git automation and PR enhancement                                              | `/plugin install git-pr-workflows`         |
 | **full-stack-orchestration** | End-to-end feature orchestration                                               | `/plugin install full-stack-orchestration` |
 | **tdd-workflows**            | Test-driven development methodology                                            | `/plugin install tdd-workflows`            |
+| **agent-teams**              | Parallel code review, debugging, feature, and research teams                   | `/plugin install agent-teams`              |
+| **ship-mate**                | Story-file to reviewed, tested PR workflow orchestration                       | `/plugin install ship-mate`                |
 
 ### ✅ Testing (2 plugins)
 
-| Plugin            | Description                                        | Install                         |
-| ----------------- | -------------------------------------------------- | ------------------------------- |
-| **unit-testing**  | Automated unit test generation (Python/JavaScript) | `/plugin install unit-testing`  |
-| **tdd-workflows** | Test-driven development methodology                | `/plugin install tdd-workflows` |
+| Plugin             | Description                                                                          | Install                          |
+| ------------------ | ------------------------------------------------------------------------------------ | -------------------------------- |
+| **unit-testing**   | Automated unit test generation (Python/JavaScript)                                   | `/plugin install unit-testing`   |
+| **qa-orchestra**   | Multi-agent QA toolkit (10 agents, Chrome MCP live validation, stack-agnostic) — external plugin | `/plugin install qa-orchestra`   |
 
 ### 🔍 Quality (3 plugins)
 
 | Plugin                         | Description                                   | Install                                      |
 | ------------------------------ | --------------------------------------------- | -------------------------------------------- |
-| **code-review-ai**             | AI-powered architectural review               | `/plugin install code-review-ai`             |
 | **comprehensive-review**       | Multi-perspective code analysis               | `/plugin install comprehensive-review`       |
 | **performance-testing-review** | Performance analysis and test coverage review | `/plugin install performance-testing-review` |
+| **plugin-eval**                | Three-layer quality evaluation framework for Claude Code plugins | `/plugin install plugin-eval`                |
 
 ### 🛠️ Utilities (4 plugins)
 
@@ -184,6 +180,12 @@ Next.js, React + Vite, and Node.js project setup with pnpm and TypeScript best p
 | **agent-orchestration**  | Multi-agent system optimization     | `/plugin install agent-orchestration`  |
 | **context-management**   | Context persistence and restoration | `/plugin install context-management`   |
 | **machine-learning-ops** | ML training pipelines and MLOps     | `/plugin install machine-learning-ops` |
+
+### 🧠 Memory (1 external plugin)
+
+| Plugin      | Description                                                                                  | Install                   |
+| ----------- | -------------------------------------------------------------------------------------------- | ------------------------- |
+| **pensyve** | Cross-session memory runtime with MCP-backed recall, skills, commands, agents, and hooks     | `/plugin install pensyve` |
 
 ### 📊 Data (2 plugins)
 
@@ -225,14 +227,24 @@ Next.js, React + Vite, and Node.js project setup with pnpm and TypeScript best p
 | **cloud-infrastructure**  | AWS/Azure/GCP cloud architecture            | `/plugin install cloud-infrastructure`  |
 | **cicd-automation**       | CI/CD pipeline configuration                | `/plugin install cicd-automation`       |
 
-### 🔒 Security (4 plugins)
+### 🔒 Security (6 plugins)
 
-| Plugin                       | Description                              | Install                                    |
-| ---------------------------- | ---------------------------------------- | ------------------------------------------ |
-| **security-scanning**        | SAST analysis and vulnerability scanning | `/plugin install security-scanning`        |
-| **security-compliance**      | SOC2/HIPAA/GDPR compliance               | `/plugin install security-compliance`      |
-| **backend-api-security**     | API security and authentication          | `/plugin install backend-api-security`     |
-| **frontend-mobile-security** | XSS/CSRF prevention and mobile security  | `/plugin install frontend-mobile-security` |
+| Plugin                       | Description                                                     | Install                                    |
+| ---------------------------- | --------------------------------------------------------------- | ------------------------------------------ |
+| **security-scanning**        | SAST analysis and vulnerability scanning                        | `/plugin install security-scanning`        |
+| **security-compliance**      | SOC2/HIPAA/GDPR compliance                                      | `/plugin install security-compliance`      |
+| **backend-api-security**     | API security and authentication                                 | `/plugin install backend-api-security`     |
+| **frontend-mobile-security** | XSS/CSRF prevention and mobile security                         | `/plugin install frontend-mobile-security` |
+| **reverse-engineering**      | Binary analysis, malware triage, firmware security (authorized) | `/plugin install reverse-engineering`      |
+| **block-no-verify**          | PreToolUse hook blocking `--no-verify` and hook-bypass flags    | `/plugin install block-no-verify`          |
+
+### 🛡️ Governance (3 plugins)
+
+| Plugin                      | Description                                                                                                             | Install                                   |
+| --------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
+| **protect-mcp**             | Cedar policy enforcement + Ed25519 signed receipts for every tool call; offline-verifiable audit trail via hash chaining | `/plugin install protect-mcp`             |
+| **signed-audit-trails**     | Cookbook-style signed audit trail patterns for Claude Code tool calls                                                   | `/plugin install signed-audit-trails`     |
+| **review-agent-governance** | Human approval governance before AI agents post reviews, comments, merges, or CI writes                                 | `/plugin install review-agent-governance` |
 
 ### 🔄 Modernization (2 plugins)
 
@@ -248,7 +260,7 @@ Next.js, React + Vite, and Node.js project setup with pnpm and TypeScript best p
 | **api-scaffolding**           | REST/GraphQL API generation | `/plugin install api-scaffolding`           |
 | **api-testing-observability** | API testing and monitoring  | `/plugin install api-testing-observability` |
 
-### 📢 Marketing (4 plugins)
+### 📢 Marketing (5 plugins)
 
 | Plugin                         | Description                             | Install                                      |
 | ------------------------------ | --------------------------------------- | -------------------------------------------- |
@@ -256,16 +268,18 @@ Next.js, React + Vite, and Node.js project setup with pnpm and TypeScript best p
 | **seo-technical-optimization** | Meta tags, keywords, and schema markup  | `/plugin install seo-technical-optimization` |
 | **seo-analysis-monitoring**    | Content analysis and authority building | `/plugin install seo-analysis-monitoring`    |
 | **content-marketing**          | Content strategy and web research       | `/plugin install content-marketing`          |
+| **social-publishing**          | Multi-platform social media publishing  | `/plugin install social-publishing`          |
 
-### 💼 Business (3 plugins)
+### 💼 Business (4 plugins)
 
 | Plugin                        | Description                          | Install                                     |
 | ----------------------------- | ------------------------------------ | ------------------------------------------- |
 | **business-analytics**        | KPI tracking and financial reporting | `/plugin install business-analytics`        |
+| **startup-business-analyst**  | Market sizing, financial modeling, team planning, and strategic research for startups | `/plugin install startup-business-analyst`  |
 | **hr-legal-compliance**       | HR policies and legal templates      | `/plugin install hr-legal-compliance`       |
 | **customer-sales-automation** | Support and sales automation         | `/plugin install customer-sales-automation` |
 
-### 💻 Languages (7 plugins)
+### 💻 Languages (10 plugins)
 
 | Plugin                          | Description                              | Install                                       |
 | ------------------------------- | ---------------------------------------- | --------------------------------------------- |
@@ -275,7 +289,10 @@ Next.js, React + Vite, and Node.js project setup with pnpm and TypeScript best p
 | **jvm-languages**               | Java, Scala, C# with enterprise patterns | `/plugin install jvm-languages`               |
 | **web-scripting**               | PHP and Ruby for web applications        | `/plugin install web-scripting`               |
 | **functional-programming**      | Elixir with OTP and Phoenix              | `/plugin install functional-programming`      |
+| **julia-development**           | Julia scientific computing and high-performance numerical code | `/plugin install julia-development`           |
 | **arm-cortex-microcontrollers** | ARM Cortex-M firmware and drivers        | `/plugin install arm-cortex-microcontrollers` |
+| **shell-scripting**             | Production-grade Bash and POSIX shell scripting | `/plugin install shell-scripting`             |
+| **dotnet-contribution**         | C#/.NET backend development with ASP.NET Core, EF Core, and Dapper | `/plugin install dotnet-contribution`         |
 
 ### 🔗 Blockchain (1 plugin)
 
@@ -306,6 +323,13 @@ Next.js, React + Vite, and Node.js project setup with pnpm and TypeScript best p
 | Plugin                       | Description                        | Install                                    |
 | ---------------------------- | ---------------------------------- | ------------------------------------------ |
 | **accessibility-compliance** | WCAG auditing and inclusive design | `/plugin install accessibility-compliance` |
+
+### 🎨 Creative (2 plugins)
+
+| Plugin               | Description                                                              | Install                            |
+| -------------------- | ------------------------------------------------------------------------ | ---------------------------------- |
+| **meigen-ai-design** | AI image generation with creative workflow orchestration and prompt MCPs | `/plugin install meigen-ai-design` |
+| **brand-landingpage** | Brand discovery through deployment-ready landing page HTML              | `/plugin install brand-landingpage` |
 
 ## Plugin Structure
 
@@ -341,7 +365,7 @@ plugins/python-development/
 /plugin marketplace add wshobson/agents
 ```
 
-This makes all 67 plugins available for installation, but **does not load any agents or tools** into your context.
+This makes all 84 marketplace plugins available for installation, but **does not load any agents or tools** into your context.
 
 ### Step 2: Install Specific Plugins
 
@@ -366,7 +390,7 @@ Each installed plugin loads **only its specific agents and commands** into Claud
 
 - Each plugin does **one thing well** (Unix philosophy)
 - Clear, focused purposes (describable in 5-10 words)
-- Average plugin size: **3.4 components** (follows Anthropic's 2-8 pattern)
+- Average plugin size: **3.6 components** (follows Anthropic's 2-8 pattern)
 
 ### Minimal Token Usage
 
@@ -384,7 +408,7 @@ Each installed plugin loads **only its specific agents and commands** into Claud
 
 ## See Also
 
-- [Agent Skills](./agent-skills.md) - 107 specialized skills across plugins
+- [Agent Skills](./agent-skills.md) - 156 specialized skills across plugins
 - [Agent Reference](./agents.md) - Complete agent catalog
 - [Usage Guide](./usage.md) - Commands and workflows
 - [Architecture](./architecture.md) - Design principles
